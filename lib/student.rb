@@ -11,6 +11,9 @@ class Student
 
   def self.create_from_collection(students_array)
     binding.pry
+    students_array.each do |student|
+
+    end
   end
 
   def add_student_attributes(attributes_hash)
